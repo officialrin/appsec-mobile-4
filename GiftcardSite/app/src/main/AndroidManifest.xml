@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="https://schemas.android.com/apk/res/android"
     package="com.example.giftcardsite">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/> -->
 
 
 
@@ -21,9 +17,10 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".UseCard"
-            android:exported="false"
             android:label="@string/title_activity_use_card"
-            android:theme="@style/Theme.GiftcardSite.NoActionBar">
+            android:theme="@style/Theme.GiftcardSite.NoActionBar"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
 
@@ -36,9 +33,10 @@
         </activity>
         <activity
             android:name=".GetCard"
-            android:exported="false"
             android:label="@string/title_activity_get_card"
-            android:theme="@style/Theme.GiftcardSite.NoActionBar">
+            android:theme="@style/Theme.GiftcardSite.NoActionBar"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
 
@@ -51,9 +49,10 @@
         </activity>
         <activity
             android:name=".ProductScrollingActivity"
-            android:exported="false"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/Theme.GiftcardSite.NoActionBar">
+            android:theme="@style/Theme.GiftcardSite.NoActionBar"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -76,9 +75,10 @@
         </activity>
         <activity
             android:name=".CardScrollingActivity"
-            android:exported="false"
             android:label="@string/title_activity_scrolling_card"
-            android:theme="@style/Theme.GiftcardSite.NoActionBar">
+            android:theme="@style/Theme.GiftcardSite.NoActionBar"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
