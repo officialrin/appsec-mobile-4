@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="https://schemas.android.com/apk/res/android"
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.giftcardsite">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
-
 
     <application
         android:allowBackup="true"
@@ -19,8 +19,8 @@
             android:name=".UseCard"
             android:label="@string/title_activity_use_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
-            android:exported="false"
-            tools:ignore="AppLinkUrlError">
+        android:exported="false"
+         tools:ignore="AppLinkUrlError">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
 
@@ -28,39 +28,35 @@
 
             <data android:mimeType="text/giftcards_use" />
                 <data android:scheme="giftcard" />
-                <data android:host="appsec.moyix.net"/>
+                <data android:host="appsecclass.report"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".GetCard"
             android:label="@string/title_activity_get_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
-            android:exported="false"
-            tools:ignore="AppLinkUrlError">
+        android:exported="false"
+        tools:ignore="AppLinkUrlError">
             <intent-filter>
             <action android:name="android.intent.action.VIEW" />
-
             <category android:name="android.intent.category.DEFAULT" />
-
             <data android:mimeType="text/giftcards_buy" />
                 <data android:scheme="giftcard" />
-                <data android:host="appsec.moyix.net"/>
+                <data android:host="appsecclass.report"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".ProductScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
-            android:exported="false"
-            tools:ignore="AppLinkUrlError">
+        android:exported="false"
+        tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
-
                 <data android:mimeType="text/giftcards_browse" />
                 <data android:scheme="giftcard" />
-                <data android:host="appsec.moyix.net"/>
+                <data android:host="appsecclass.report"/>
             </intent-filter>
         </activity>
         <activity
@@ -77,8 +73,8 @@
             android:name=".CardScrollingActivity"
             android:label="@string/title_activity_scrolling_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar"
-            android:exported="false"
-            tools:ignore="AppLinkUrlError">
+        android:exported="false"
+        tools:ignore="AppLinkUrlError">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -86,7 +82,7 @@
 
                 <data android:mimeType="text/giftcards_list" />
                 <data android:scheme="giftcard" />
-                <data android:host="appsec.moyix.net"/>
+                <data android:host="appsecclass.report"/>
             </intent-filter>
         </activity>
     </application>
