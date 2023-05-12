@@ -21,6 +21,7 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".UseCard"
+            android:exported="false"
             android:label="@string/title_activity_use_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
@@ -35,6 +36,7 @@
         </activity>
         <activity
             android:name=".GetCard"
+            android:exported="false"
             android:label="@string/title_activity_get_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
@@ -49,6 +51,7 @@
         </activity>
         <activity
             android:name=".ProductScrollingActivity"
+            android:exported="false"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
@@ -73,6 +76,7 @@
         </activity>
         <activity
             android:name=".CardScrollingActivity"
+            android:exported="false"
             android:label="@string/title_activity_scrolling_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
             <intent-filter>
