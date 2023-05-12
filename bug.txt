@@ -1,0 +1,6 @@
+<4>
+
+In CardInterface.kt, the problem is that the api only takes the card number of the giftcard.
+There is no sort of verification of card ownership or other details.
+This is a vulnerability because with only a number, a malicious user could use a card that does not belong to them.
+To verify the giftcard owner or purchaser, the api should also take the authorization token when buying the card with the card number so that the card owner can be verified.
