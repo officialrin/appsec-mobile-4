@@ -1,0 +1,20 @@
+<2.1>
+
+What are the two types of Intents? 
+>Implicit and Explicit.
+Which of the two types of Intents is (generally) more secure?
+>Explicit.
+What type of Intent is shown on lines 69 to 73 of SecondFragment.kt?
+>Implicit.
+What type of Intent is shown on lines 68 to 70 of ThirdFragment.kt?
+>Explicit.
+Which of these two Intents is the proper way to do an Intent?
+>ThirdFragment.kt. Therefore, this example can be used to correct SecondFragment.kt.
+
+Which file you modified and why.
+>I modified SecondFragment.kt because it contained implicit intent.
+This is not as secure as explicit intent, which is shown in ThirdFragment.kt.
+I copied the explicit intent code from ThirdFragment.kt into SecondFragment.kt.
+This fix navigates us to the correct page (ProductScrollingActivity) as is specified in the code.
+
+
